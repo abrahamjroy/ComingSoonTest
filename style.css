@@ -1,9 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Open Sans");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+
+
 body {
 	background: linear-gradient(-90deg, #eed152, #ee7752, #e73c7e, #23a6d5, #23d5ab, #23d5a0);
 	background-size: 400% 400%;
 	-webkit-animation: gradient 30s ease infinite;
-	        animation: gradient 30s ease infinite;
+			animation: gradient 30s ease infinite;
+	font-family: "Open Sans", sans-serif;
+  	min-height: 80vh;
+  	display: -webkit-box;
+  	display: flex;
+  	-webkit-box-align: center;
+          align-items: center;
+  	-webkit-box-pack: center;
+          justify-content: center;
+  	-webkit-box-orient: vertical;
+  	-webkit-box-direction: normal;
+          flex-direction: column;
 }
+
+
+* {
+	font-family: "Open Sans", sans-serif !important;
+  }
 
 @-webkit-keyframes gradient {
 	0% {
